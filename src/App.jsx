@@ -16,35 +16,35 @@ function App() {
       <section className="bg-gradient-to-t from-[#F0F1FF] via-white to-[#F0F1FF] md:pt-52">
         <Cards
           image={animation}
-          title={'Animation'}
+          title={"Animation"}
           description={
             "Learn the latest animation techniques to create stunning motion design and captivate your audience."
           }
         />
         <Cards
           image={design}
-          title={'Design'}
+          title={"Design"}
           description={
             "Learn the latest animation techniques to create stunning motion design and captivate your audience."
           }
         />
         <Cards
           image={photography}
-          title={'Photography'}
+          title={"Photography"}
           description={
             "Learn the latest animation techniques to create stunning motion design and captivate your audience."
           }
         />
         <Cards
           image={crypto}
-          title={'Crypto'}
+          title={"Crypto"}
           description={
             "Learn the latest animation techniques to create stunning motion design and captivate your audience."
           }
         />
         <Cards
           image={business}
-          title={'Business'}
+          title={"Business"}
           description={
             "Learn the latest animation techniques to create stunning motion design and captivate your audience."
           }

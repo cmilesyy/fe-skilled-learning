@@ -4,10 +4,10 @@ import heroTablet from "../assets/images/image-hero-tablet@2x.webp";
 function Hero() {
   return (
     <>
-      <section className="bg-gradient-to-b from-white to-[#F0F1FF] pb-3 px-5 flex flex-col items-center md:px-8">
-        <div className="pt-9 flex flex-col items-center justify-center md:grid md:grid-cols-2 md:pt-20">
-          <div>
-            <h1 className="text-4xl pb-7">Maximize skill, minimize budget</h1>
+      <section className="bg-gradient-to-b from-white to-[#F0F1FF] pb-3 px-5 flex flex-col items-center md:px-0 ">
+        <div className="pt-9 flex flex-col items-center justify-center md:grid md:grid-cols-2 md:pt-20 overflow-hidden md:relative">
+          <div className="px-10">
+            <h1 className="text-4xl pb-7 pt-3">Maximize skill, minimize budget</h1>
             <p className="text-gray text-lg pb-6 ">
               Our modern courses across a range of in-demand skills will give
               you the knowledge you need to live the life you want.
@@ -21,9 +21,13 @@ function Hero() {
             <img
               src={heroMobile}
               alt="Lady drinking a cup of tea"
-              className=""
+              className="md:hidden"
             />
-            {/* <img src={heroTablet} alt="Lady drinking a cup of tea" className="absolute bottom-[-5%] left-[44%] hidden " /> */}
+            <img
+              src={heroTablet}
+              alt="Lady drinking a cup of tea"
+              className="hidden md:block absolute -right-[45%] -top-[55%] overflow-hidden"
+            />
           </div>
         </div>
 
