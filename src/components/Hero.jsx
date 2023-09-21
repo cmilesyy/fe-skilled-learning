@@ -5,9 +5,11 @@ function Hero() {
   return (
     <>
       <section className="bg-gradient-to-b from-white to-[#F0F1FF] pb-3 px-5 flex flex-col items-center md:px-0 ">
-        <div className="pt-9 flex flex-col items-center justify-center md:grid md:grid-cols-2 md:pt-20 overflow-hidden md:relative">
+        <div className="pt-9 flex flex-col items-center justify-center md:grid md:grid-cols-2 md:pt-20 overflow-hidden ">
           <div className="px-10">
-            <h1 className="text-4xl pb-7 pt-3">Maximize skill, minimize budget</h1>
+            <h1 className="text-4xl pb-7 pt-3">
+              Maximize skill, minimize budget
+            </h1>
             <p className="text-gray text-lg pb-6 ">
               Our modern courses across a range of in-demand skills will give
               you the knowledge you need to live the life you want.
@@ -17,7 +19,7 @@ function Hero() {
             </button>
           </div>
 
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center md:relative ">
             <img
               src={heroMobile}
               alt="Lady drinking a cup of tea"
@@ -26,7 +28,7 @@ function Hero() {
             <img
               src={heroTablet}
               alt="Lady drinking a cup of tea"
-              className="hidden md:block absolute -right-[45%] -top-[55%] overflow-hidden"
+              className="hidden md:block overflow-hidden md:absolute"
             />
           </div>
         </div>
